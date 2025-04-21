@@ -48,9 +48,9 @@
 ///   The mutating keyword is used for structs to allow the function to mutate the struct's member variables as it requires copying data to a new struct object.
 /// 6. What is enum?
 ///   Enum is used to create a custom data type that denotes and specifies a state.
-/// 7. What is associated type?
-///   Associated type allows you to input custom data into an enum. Not all states in the enum need an associated type
-/// 8. Difference between associated type and raw value
+/// 7. What is associated value?
+///   Associated value allows you to input custom data into an enum. Not all states in the enum need an associated value
+/// 8. Difference between associated value and raw value
 ///   Raw value is used in enum to assign a value e.g. an Int, a String, a double, etc. that's fixed to a state. The raw value data type needs to be declared for the enum though not all states need a raw value to actually be assigned. Associated values are specific to a state in an enum and different states in the same enum can have different data types. An enum cannot have both an associated value and a raw value.
 /// 9. What is protocol?
 ///   Protocol is like a java interface. It's declared like a class but only has methods with no implementation. Classes and structs that implement a protocol must conform all of that protocol's functions.
